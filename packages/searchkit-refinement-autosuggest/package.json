@@ -41,5 +41,6 @@
         "@types/react-select": "^1.0.59",
         "lodash": "^4.17.5",
         "react-select": "^1.0.0-rc.10"
-    }
+    },
+    "gitHead": "3df102e34425a2526f7e4e3f276fff369e7402f9"
 }

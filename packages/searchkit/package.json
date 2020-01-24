@@ -101,5 +101,6 @@
     "ts-loader": "^2.3.7",
     "typescript": "^3.7.4",
     "webpack": "^3.6.0"
-  }
+  },
+  "gitHead": "3df102e34425a2526f7e4e3f276fff369e7402f9"
 }
