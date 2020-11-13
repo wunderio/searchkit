@@ -84,5 +84,6 @@
       "pre-commit": "lint-staged",
       "pre-push": "yarn test"
     }
-  }
+  },
+  "version": "2.4.1-alpha.5"
 }
