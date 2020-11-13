@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "searchkit",
+  "name": "searchkit-wunderio",
   "keywords": [
     "elasticsearch",
     "react",
@@ -10,14 +10,6 @@
     "library",
     "widgets"
   ],
-  "homepage": "http://www.searchkit.co",
-  "bugs": {
-    "url": "https://github.com/searchkit/searchkit/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/searchkit/searchkit.git"
-  },
   "scripts": {
     "lerna": "lerna",
     "build": "lerna run build",
