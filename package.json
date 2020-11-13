@@ -1,37 +1,29 @@
 {
-  "name": "searchkit",
-  "version": "2.4.1-alpha.5",
-  "description": "A suite of react components to help create a UI quickly for elasticsearch",
-  "main": "lib/index.js",
-  "module": "lib/index.js",
-  "jsnext:main": "es/index.js",
-  "typings": "lib/index.d.ts",
-  "keywords": [
-    "elasticsearch",
-    "react",
-    "ui components",
-    "search",
-    "framework",
-    "library",
-    "widgets"
+  "_from": "searchkit@2.4.1-alpha.5",
+  "_id": "searchkit@2.4.1-alpha.5",
+  "_inBundle": false,
+  "_integrity": "sha512-IhNwdLH3OW4hsDi2bpm4oPvjmIT7DuLjmm4M6G7TlHpEDApjS+74by6pEFPxS2hLQCRJbR1/IeJAcl1KHk1/KA==",
+  "_location": "/searchkit",
+  "_phantomChildren": {
+    "follow-redirects": "1.5.10"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "searchkit@2.4.1-alpha.5",
+    "name": "searchkit",
+    "escapedName": "searchkit",
+    "rawSpec": "2.4.1-alpha.5",
+    "saveSpec": null,
+    "fetchSpec": "2.4.1-alpha.5"
+  },
+  "_requiredBy": [
+    "/"
   ],
-  "homepage": "http://www.searchkit.co",
-  "bugs": {
-    "url": "https://github.com/searchkit/searchkit/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/searchkit/searchkit.git"
-  },
-  "scripts": {
-    "build": "tsc; npm run build:es; webpack; rm release/ignore.js",
-    "build:es": "tsc --target es2015 --module es2015 --outDir es",
-    "build:watch": "tsc -w",
-    "test": "jest -c jest.json",
-    "test:watch": "jest -c jest.json --watch",
-    "test:coverage": "jest -c jest.json --coverage",
-    "test:ci": "TEST_REPORT_FILENAME=unit-results.xml jest -c jest.json --coverage --testResultsProcessor=jest-junit-reporter --forceExit --ci -w 2"
-  },
+  "_resolved": "https://registry.npmjs.org/searchkit/-/searchkit-2.4.1-alpha.5.tgz",
+  "_shasum": "e2ca37b6bc227dbcbeaf055d8506210b4b4f9351",
+  "_spec": "searchkit@2.4.1-alpha.5",
+  "_where": "/app/code/sites/all/modules/features/tekla_elasticsearch/js/app",
   "authors": [
     {
       "name": "Joseph McElroy",
@@ -42,13 +34,16 @@
       "email": "ssetem@gmail.com"
     }
   ],
+  "bugs": {
+    "url": "https://github.com/searchkit/searchkit/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Gregory Potdevin",
       "email": "gregory.potdevin@gmail.com"
     }
   ],
-  "license": "Apache-2.0",
   "dependencies": {
     "@types/history": "^4.6.0",
     "@types/lodash": "^4.14.77",
@@ -60,10 +55,8 @@
     "qs": "6.4.0",
     "rc-slider": "^8.3.1"
   },
-  "peerDependencies": {
-    "react": "^15.0.0-0 || ^16.0.0-0",
-    "react-dom": "^15.0.0-0 || ^16.0.0-0"
-  },
+  "deprecated": false,
+  "description": "A suite of react components to help create a UI quickly for elasticsearch",
   "devDependencies": {
     "@types/enzyme": "^2.8.11",
     "@types/jest": "^21.1.2",
@@ -101,5 +94,40 @@
     "ts-loader": "^2.3.7",
     "typescript": "^3.7.4",
     "webpack": "^3.6.0"
-  }
+  },
+  "gitHead": "247917bd1c9610abe238f269c4f4eb92507df275",
+  "homepage": "http://www.searchkit.co",
+  "jsnext:main": "es/index.js",
+  "keywords": [
+    "elasticsearch",
+    "react",
+    "ui components",
+    "search",
+    "framework",
+    "library",
+    "widgets"
+  ],
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "name": "searchkit",
+  "peerDependencies": {
+    "react": "^15.0.0-0 || ^16.0.0-0",
+    "react-dom": "^15.0.0-0 || ^16.0.0-0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/searchkit/searchkit.git"
+  },
+  "scripts": {
+    "build": "tsc; npm run build:es; webpack; rm release/ignore.js",
+    "build:es": "tsc --target es2015 --module es2015 --outDir es",
+    "build:watch": "tsc -w",
+    "test": "jest -c jest.json",
+    "test:ci": "TEST_REPORT_FILENAME=unit-results.xml jest -c jest.json --coverage --testResultsProcessor=jest-junit-reporter --forceExit --ci -w 2",
+    "test:coverage": "jest -c jest.json --coverage",
+    "test:watch": "jest -c jest.json --watch"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "2.4.1-alpha.5"
 }
