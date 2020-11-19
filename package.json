@@ -1,12 +1,4 @@
 {
-  "_from": "searchkit@2.4.1-alpha.5",
-  "_id": "searchkit@2.4.1-alpha.5",
-  "_inBundle": false,
-  "_integrity": "sha512-IhNwdLH3OW4hsDi2bpm4oPvjmIT7DuLjmm4M6G7TlHpEDApjS+74by6pEFPxS2hLQCRJbR1/IeJAcl1KHk1/KA==",
-  "_location": "/searchkit",
-  "_phantomChildren": {
-    "follow-redirects": "1.5.10"
-  },
   "_requested": {
     "type": "version",
     "registry": true,
@@ -16,8 +8,5 @@
     "rawSpec": "2.4.1-alpha.5",
     "saveSpec": null,
     "fetchSpec": "2.4.1-alpha.5"
-  },
-  "_requiredBy": [
-    "/"
-  ]
+  }
 }
