@@ -19,29 +19,5 @@
   },
   "_requiredBy": [
     "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/searchkit/-/searchkit-2.4.1-alpha.5.tgz",
-  "_shasum": "e2ca37b6bc227dbcbeaf055d8506210b4b4f9351",
-  "_spec": "searchkit@2.4.1-alpha.5",
-  "_where": "/app/code/sites/all/modules/features/tekla_elasticsearch/js/app",
-  "authors": [
-    {
-      "name": "Joseph McElroy",
-      "email": "phoey1@gmail.com"
-    },
-    {
-      "name": "Siavash Etemadieh",
-      "email": "ssetem@gmail.com"
-    }
-  ],
-  "bugs": {
-    "url": "https://github.com/searchkit/searchkit/issues"
-  },
-  "bundleDependencies": false,
-  "contributors": [
-    {
-      "name": "Gregory Potdevin",
-      "email": "gregory.potdevin@gmail.com"
-    }
   ]
 }
