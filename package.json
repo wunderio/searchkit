@@ -43,45 +43,5 @@
       "name": "Gregory Potdevin",
       "email": "gregory.potdevin@gmail.com"
     }
-  ],
-  "dependencies": {
-    "@types/history": "^4.6.0"
-  },
-  "deprecated": false,
-  "description": "A suite of react components to help create a UI quickly for elasticsearch",
-  "gitHead": "247917bd1c9610abe238f269c4f4eb92507df275",
-  "homepage": "http://www.searchkit.co",
-  "jsnext:main": "es/index.js",
-  "keywords": [
-    "elasticsearch",
-    "react",
-    "ui components",
-    "search",
-    "framework",
-    "library",
-    "widgets"
-  ],
-  "license": "Apache-2.0",
-  "main": "lib/index.js",
-  "module": "lib/index.js",
-  "name": "searchkit",
-  "peerDependencies": {
-    "react": "^15.0.0-0 || ^16.0.0-0",
-    "react-dom": "^15.0.0-0 || ^16.0.0-0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/searchkit/searchkit.git"
-  },
-  "scripts": {
-    "build": "tsc; npm run build:es; webpack; rm release/ignore.js",
-    "build:es": "tsc --target es2015 --module es2015 --outDir es",
-    "build:watch": "tsc -w",
-    "test": "jest -c jest.json",
-    "test:ci": "TEST_REPORT_FILENAME=unit-results.xml jest -c jest.json --coverage --testResultsProcessor=jest-junit-reporter --forceExit --ci -w 2",
-    "test:coverage": "jest -c jest.json --coverage",
-    "test:watch": "jest -c jest.json --watch"
-  },
-  "typings": "lib/index.d.ts",
-  "version": "2.4.1-alpha.5"
+  ]
 }
