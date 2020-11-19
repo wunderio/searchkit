@@ -45,15 +45,7 @@
     }
   ],
   "dependencies": {
-    "@types/history": "^4.6.0",
-    "@types/lodash": "^4.14.77",
-    "axios": "^0.19.2",
-    "history": "4.7.2",
-    "immutability-helper": "^2.4.0",
-    "lodash": "^4.17.5",
-    "prop-types": "^15.5.8",
-    "qs": "6.4.0",
-    "rc-slider": "^8.3.1"
+    "@types/history": "^4.6.0"
   },
   "deprecated": false,
   "description": "A suite of react components to help create a UI quickly for elasticsearch",
